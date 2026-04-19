@@ -1,4 +1,4 @@
-name: CI (default version)
+panda-client: CI (default version)
 
 on:
   push:
@@ -10,4 +10,5 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
+      - run: pip install rucio-clients
       - run: pip install panda-client
