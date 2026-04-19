@@ -1,4 +1,4 @@
-panda-client: CI (default version)
+name: CI (default version)
 
 on:
   push:
